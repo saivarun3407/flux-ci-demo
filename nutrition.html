@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nutrition Ladder | India Electrolytes CI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="page-header">
+      <div class="eyebrow">Section 04</div>
+      <h1>Nutrition Ladder</h1>
+      <p class="lede">Sodium vs sugar positioning across rivals, and ₹ per mg Na for high-Na powders where calculable.</p>
+    </header>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3>Sodium mg per serve</h3>
+        <div class="bar-chart" id="chart-na"></div>
+        <p style="font-size:11px;color:var(--gray-500);margin-top:12px">* LIV Multiplier &amp; Gatorade from global/typical panels — India exact UNKNOWN where noted in report.</p>
+      </div>
+      <div class="chart-card">
+        <h3>₹ per mg Na (high-Na powders)</h3>
+        <div class="bar-chart" id="chart-cost-na"></div>
+        <p style="font-size:11px;color:var(--gray-500);margin-top:12px">Among high-Na powders: Salts+ ~₹0.023/mg · UP&amp;RUN ₹0.040/mg · Flow ~₹0.050/mg · Unived ₹0.075/mg (at ₹75/serve).</p>
+      </div>
+    </div>
+
+    <div class="section" style="margin-top:32px">
+      <h2 class="section-title"><span class="num">MAP</span> Sodium vs sugar (approximate)</h2>
+      <div class="chart-card">
+        <div class="scatter-wrap" id="scatter-nutrition">
+          <div class="scatter-axis-y">Sodium (mg) →</div>
+          <div class="scatter-axis-x">Sugar g (approx) →</div>
+          <div class="scatter-plot"></div>
+        </div>
+        <p style="font-size:11px;color:var(--gray-500);margin-top:12px">
+          Teal = zero-sugar high-Na peers · Gold = sugar/functional sucrose · Gray = mid/low Na. * = global/typical panels where India PDP silent.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title"><span class="num">CLUSTERS</span> From report §5</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3 style="font-size:14px;color:var(--navy);margin-bottom:10px">High Na, zero/near-zero sugar</h3>
+          <ul class="kv-list">
+            <li><span class="k">UP&amp;RUN Advance</span><span class="v">1000 / 0</span></li>
+            <li><span class="k">Flow API</span><span class="v">1000 / 0</span></li>
+            <li><span class="k">Fast&amp;Up Salts+</span><span class="v">~900 / 0 (sec.)</span></li>
+            <li><span class="k">Unived</span><span class="v">1000 + functional sucrose</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="font-size:14px;color:var(--navy);margin-bottom:10px">Mid Na / sugar camps</h3>
+          <ul class="kv-list">
+            <li><span class="k">MB Hydr8</span><span class="v">222 · sucralose</span></li>
+            <li><span class="k">Fast&amp;Up Reload</span><span class="v">180 · &lt;1 g</span></li>
+            <li><span class="k">LIV Multiplier</span><span class="v">~500 + ~11 g*</span></li>
+            <li><span class="k">Gatorade RTD</span><span class="v">modest Na · high sugar</span></li>
+            <li><span class="k">Electral</span><span class="v">medical glucose + salts</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/nav.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

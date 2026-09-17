@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comparison Matrix | India Electrolytes CI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="page-header">
+      <div class="eyebrow">Section 03</div>
+      <h1>Comparison Matrix</h1>
+      <p class="lede">Rival comparison table — searchable and filterable. Click headers to sort. “Name they own” under each brand. UNKNOWN = intentional.</p>
+    </header>
+
+    <div class="table-toolbar">
+      <input type="search" id="matrix-search" placeholder="Search brand, format, claim…" aria-label="Search matrix" />
+      <select id="matrix-format" aria-label="Filter by format">
+        <option value="all">All formats</option>
+        <option value="powder">Powder / sachet / stick (peer)</option>
+        <option value="tabs">Effervescent tabs</option>
+        <option value="rtd">RTD / ORS / LIV sticks</option>
+      </select>
+      <span id="matrix-count" style="font-size:12px;color:var(--gray-500)"></span>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data" id="matrix-table">
+        <thead>
+          <tr>
+            <th data-sort="brand">Brand <span class="sort-ind">↕</span></th>
+            <th data-sort="format">Format <span class="sort-ind">↕</span></th>
+            <th data-sort="na">Na mg <span class="sort-ind">↕</span></th>
+            <th data-sort="k">K mg <span class="sort-ind">↕</span></th>
+            <th data-sort="mg">Mg mg <span class="sort-ind">↕</span></th>
+            <th data-sort="sugar">Sugar <span class="sort-ind">↕</span></th>
+            <th data-sort="price">₹/serve <span class="sort-ind">↕</span></th>
+            <th>Claim</th>
+            <th data-sort="threatRank" class="sorted">Threat <span class="sort-ind">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="matrix-body"></tbody>
+      </table>
+    </div>
+
+    <div class="note" style="margin-top:20px">
+      Sources for table cells are expanded in <a href="brands.html">brand deep dives</a>.
+      LIV / Gatorade Na from global/typical panels where India PDP did not publish mg — labeled accordingly.
+      Fast&amp;Up Salts+ Na from Amazon/PriceHistory secondary until pack panel confirmed.
+    </div>
+  </main>
+  <script src="js/nav.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
