@@ -1,8 +1,15 @@
 # India Electrolytes — Competitive Intelligence (Competitors Only)
+
 **Prepared:** 17 Sep 2026  
-**Scope:** UP&RUN, Fast&Up, Liquid I.V., MuscleBlaze Hydr8, Unived Elite, Flow, Gatorade, Electral.  
-**Note:** Flux / Salty Lime omitted per request. Numbers from official pages where possible; UNKNOWN = not invented.  
+**Scope:** Competitors only — UP&RUN, Fast&Up, Liquid I.V., MuscleBlaze, Unived, Flow, Gatorade, Electral.  
+**Method:** Official product pages preferred; UNKNOWN = not invented.  
 **Repo:** https://github.com/saivarun3407/flux-ci-demo  
+
+
+**Prepared:** 17 Sep 2026 (CT)  
+**Scope:** Priority India electrolyte / hydration brands vs Flux Hydration beachhead (Salty Lime powder).  
+**Method:** Official product pages preferred; secondary retailers/aggregators labeled. Prices and labels change; verify at checkout.  
+**UNKNOWN** = not found on cited sources at research time — **not invented**.
 
 ---
 
@@ -24,29 +31,12 @@
 
 7. **Gatorade / Electral — occasion stealers, not category peers.** RTD sugar sports drink and medical ORS set mental anchors for “hydration” and undercut on ₹/serve; they do not occupy Flux’s high-Na zero/low-sugar powder shelf the same way.
 
-**Flux live positioning (comparison column only)** — sourced from [flux-hydration.in](https://flux-hydration.in) and [salty-lime PDP](https://flux-hydration.in/products/salty-lime) via browser-UA fetch (Cloudflare blocked plain WebFetch):
-
-| Claim on site | Value |
-|---|---|
-| Hero SKU | Salty Lime (also Watermelon, Orange, Strawberry shown) |
-| Format | Powder pouch, **30 servings**, net wt **96 g** |
-| Price | **₹429** (struck ₹529); Subscribe & save 15% **₹365** |
-| Sodium | **800 mg** (peak / high-sweat) |
-| Potassium | **220 mg** |
-| Magnesium | **55 mg** |
-| Sweetener cue | Stevia mentioned in page extract |
-| Positioning | “Hydration built for Indian heat”; Made in India; plant-based; no artificial colours |
-| Caveat | Footer shows **“Demo checkout · Preview only”** — treat as live marketing site, not proven commerce volume |
-
-**Other Flux lab numbers (Ca, Cl, sugar g, kcal, full panel):** not fully expanded in fetched HTML beyond Na/K/Mg and Stevia cue → **UNKNOWN** beyond what is listed above. Do not invent.
-
 ---
 
 ## 2. Comparison table
 
 | Brand | Format | Na mg / serve | Sugar | ₹ / serve (approx.) | Key claim | Main threat to Flux |
 |---|---|---|---|---|---|---|
-| **Flux Salty Lime** | Powder pouch (30 serve) | **800** | UNKNOWN (Stevia cue) | **₹14.3** (₹429/30); sub ₹12.2 | Indian heat, high Na, Made in India | — (baseline) |
 | **UP&RUN Advance** | Powder sachet (15) | **1000** | **0 g** | **~₹40** (₹599/15) | Zero sugar; Indian heat; Equinox lab; WADA/NADA clean | Closest peer; higher Na; community + kids line |
 | **UP&RUN Salties** | Powder sachet (10) | **300** | **0 g** | **₹44.9** (₹449/10) | Kids 4–14; pediatrician study claim | Family wallet / brand halo |
 | **Fast&Up Reload** | Effervescent tab (20+) | **180** | **&lt;1 g** claimed | **~₹12** (₹239/20) | Informed Choice; 5 electrolytes; convenience | Habit + distribution scale |
@@ -399,20 +389,17 @@ Ordered roughly by **₹ per serving** (primary SKU economics):
 
 ---
 
-## 7. Implications for Flux (Salty Lime powder beachhead)
+## 7. Strategic cut (competitors only)
 
-Facts-only implications from the competitive set above — no invented market sizes:
+**Must-beat (same job — high-Na powder / serious sweat):** UP&RUN Advance (1000mg, ~₹40), Flow API (1000mg, messy story), Unived Elite (1000mg race), Fast&Up Salts+ (~900mg).
 
-1. **Closest competitive set is UP&RUN Advance + Flow (API formula) + Fast&Up Salts+ + Unived Elite**, not Gatorade/Electral. Messaging and Na dose should be compared against that cluster first.  
-2. **Published Na gap:** Flux **800** vs peers’ **900–1000**. If Flux keeps 800, comparison tables (which UP&RUN already publishes) will show Flux lower unless Flux wins on taste, ₹/serve, pouch convenience, or fuller panel transparency.  
-3. **₹/serve is a real differentiator:** ~**₹14** vs ~**₹40** sachet peers is the clearest structural advantage visible on current list prices — provided checkout is real (site still says **demo checkout**).  
-4. **K/Mg already near peers** (220/55 vs 200/60) — small differences; winning requires full panel (Ca, Cl, sugar/kcal, sweeteners) published as clearly as UP&RUN’s nutrition table.  
-5. **Proof gap vs UP&RUN/Fast&Up:** No Equinox/Informed Choice language observed on Flux pages fetched — competitors already use third-party testing as a purchase driver.  
-6. **Format:** Multi-serve pouch fights UP&RUN sachets on value; sachets still win travel/race-kit occasions — a format Flux does not yet show on the fetched homepage lineup.  
-7. **Do not invent lab numbers:** Only cite **800 / 220 / 55**, ₹429/30, Stevia cue, Made in India, Indian heat — until the full on-pack panel is published.  
-8. **Occasion stealers:** Expect chemist ORS and RTD Gatorade to remain default “I’m dehydrated” buys for non-category-educated consumers; competitive education (sweat ≠ diarrhoea; sugar water ≠ electrolyte replacement) is already used by UP&RUN/Flow and remains relevant.  
-9. **HUL Liquid I.V.** raises awareness of stick electrolytes with sugar; Flux’s high-Na powder story is complementary for consumers who reject 11 g sugar — but LIV Sugar-Free may occupy that shelf at much higher ₹/serve if Na proves competitive (Na still UNKNOWN on India SF PDP).  
-10. **Kids/family:** UP&RUN Salties is an uncontested move in this set; Flux beachhead stays adult high-sweat unless a kids dose is launched later.
+**Substitutes (steal occasions):** Fast&Up Reload + MuscleBlaze tabs (cheap gym, low Na), Liquid I.V. (HUL stick culture), Gatorade (RTD myth), Electral (clinic ORS).
+
+**How each wins:** UP&RUN = heat + dose + lab proof + run club. Unived = race science. Fast&Up = shelf + fizz habit. LIV = brand reach. Electral = chemist trust. Gatorade = impulse sports myth.
+
+**Name they own:** UP&RUN → action-compound / race kit · Fast&Up → supplement-aisle speed · LIV → lifestyle / IV metaphor · MuscleBlaze → gym shout · Unived → coined science · Flow → calm wellness fluid · Gatorade → sports myth · Electral → clinic ORS.
+
+**Ignore:** flavor novelty, kids lines (Salties), multi-SKU gym catalogs.
 
 ---
 
@@ -420,7 +407,6 @@ Facts-only implications from the competitive set above — no invented market si
 
 | Brand | Primary URLs |
 |---|---|
-| Flux | https://flux-hydration.in ; https://flux-hydration.in/products/salty-lime |
 | UP&RUN | https://upandrun.in ; /products/citrus-salt ; /products/mixed-berries |
 | Fast&Up | https://in.fastandup.com/products/reload-* ; Reload Salts+ 15s/5s |
 | Liquid I.V. | https://liquid-iv.co.in ; lemon-lime / sugar-free PDPs ; shipping policy |
